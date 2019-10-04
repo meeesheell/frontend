@@ -1,0 +1,168 @@
+body {
+  background-color: #C7C7CC;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* top heading --bars area */
+
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 375px;
+}
+
+
+nav {
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+  display: inline;
+  float: left;
+  height: 88px;
+  width: 100%;
+}
+
+
+.arrow-left {
+  box-sizing: border-box;
+  padding: 10px 0 0px 15px;
+}
+
+
+.content h1 {
+  font-size: 1.17em;
+  font-weight: 550;
+  line-height: 175%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 550;
+  line-height: 175%;
+}
+
+.busnumber h1 {
+  color: #5856D6;
+  font-size: 1.7em;
+  text-align: left;
+}
+
+.content h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 550;
+  position: absolute;
+}
+
+h3 {
+  color: #8E8E93;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h4 {
+  font-size: 110%;
+  color: #979797;
+  font-weight: normal;
+  line-height: 1.75em;
+}
+
+/* top nav section */
+
+.arrow-left {
+  box-sizing: border-box;
+  width: 20%;
+}
+
+.title h1 {
+  box-sizing: border-box;
+  color: red;
+  font-size: .75em;
+  text-align: center;
+}
+
+
+/*this is where the middle of the bus routes are */
+
+
+.busnumber {
+  padding-top: 20px;
+}
+
+
+.busroute {
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+  float:  left;
+  margin-top: .5px;
+  margin-bottom: .5px;
+  padding:10px 20px 5px 20px;
+  width: 100%;
+}
+
+
+.busnumber {
+  box-sizing: border-box;
+  float: left;
+  width: 10%;
+}
+
+.content {
+  box-sizing: border-box;
+  float: inherit;
+  height: 100%;
+  width: 75%;
+  padding-left: 15px;
+}
+
+
+.duration {
+  box-sizing: border-box;
+  position: relative;
+  float: center;
+  bottom: -4px;
+  padding-left: 275px;
+  width: 10%;
+}
+
+.busroute:hover {
+  background-color: #B4B2B4;
+}
+
+#box {
+  box-sizing: border-box;
+  background: #EFEFF4;
+  border-radius: 12px;
+  color: #8E8E93;
+  height: 58px;
+  width: 58px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#box h2 {
+  text-align: inherit;
+  padding: 10px;
+  padding-left: 12px;
+  padding-top: 7.5px;
+}
+
+#box h3 {
+  text-align: center;
+  letter-spacing: .3em;
+  padding-top: 36px;
+  padding-right: 4.5px;
+}
